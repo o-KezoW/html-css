@@ -1,0 +1,35 @@
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: green;
+    width: 75vw;
+}
+
+#div3 {
+    background-color: blue;
+    width: 50vw;
+}
+
+#other-line {
+    color: purple;
+}
+
+.container {  /*A flex container expands items to fill available free space or shrinks them to prevent overflow. Most
+ importantly, the flexbox layout is direction-agnostic as opposed to the regular layouts (block which is
+ vertically-based and inline which is horizontally-based).*/
+    display: flex;
+    flex-direction: row-reverse; /*Defaults to row flex-direction*/
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    border-style: dashed;
+    border-width: 2.5px;
+    background-color: aquamarine;
+}
+

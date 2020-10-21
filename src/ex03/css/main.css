@@ -1,0 +1,26 @@
+.container {  /*A flex container expands items to fill available free space or shrinks them to prevent overflow. Most
+ importantly, the flexbox layout is direction-agnostic as opposed to the regular layouts (block which is
+ vertically-based and inline which is horizontally-based).*/
+    display: flex;
+    flex-direction: column; /*Defaults to row flex-direction*/
+    justify-content: space-evenly;
+    /*justify-content: space-around*/
+    /*justify-content: center*/
+    align-items: flex-start;
+    background-color: aquamarine;
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    /*overflow: scroll;*/
+    overflow: auto;
+    /*overflow: no-display;*/
+}
+.div1 {
+  background-color: red;
+}
+.div2 {
+    background-color: green;
+}
+.div3 {
+    background-color: blue;
+}
